@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  workspace:
+    build:
+      context: .
+      dockerfile: ./docker/workspace/Dockerfile
+    container_name: cdk-sample
+    tty: true
+    volumes:
+      - .:/work/cdk-sample
+    working_dir: /work/cdk-sample
+    ports:
+      - 3000:3000
