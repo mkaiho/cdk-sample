@@ -1,0 +1,7 @@
+{
+  "name": "cdk-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mkaiho/cdk-sample.git",
+  "license": "MIT"
+}
