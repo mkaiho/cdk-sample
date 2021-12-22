@@ -1,0 +1,12 @@
+{
+    "dockerComposeFile": "../docker-compose.yaml",
+    "service": "workspace",
+    "workspaceFolder": "/work/cdk-sample",
+    "extensions": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "editorconfig.editorconfig",
+      "bradlc.vscode-tailwindcss"
+    ]
+  }
+  
